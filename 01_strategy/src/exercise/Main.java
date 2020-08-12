@@ -1,7 +1,24 @@
 package exercise;
 
 public class Main {
+
+    /*
+        신작 게임의 캐릭터와 무기 생성
+        무기의 종류는 두 가지 : 칼, 검, 도끼
+     */
+
     public static void main(String[] args) {
-        System.out.println("Exercise");
+        GameCharacter gameCharacter = new GameCharacter();
+        gameCharacter.attack();
+
+        //무기 설정
+        gameCharacter.setWeapon(new Knife());
+        gameCharacter.attack();
+
+        gameCharacter.setWeapon(new Sword());
+        gameCharacter.attack();
+
+        gameCharacter.setWeapon(new Ax());
+        gameCharacter.attack();
     }
 }
