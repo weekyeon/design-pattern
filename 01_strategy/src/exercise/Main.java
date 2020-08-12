@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         GameCharacter gameCharacter = new GameCharacter();
+        //무기값==null==맨손 공격
         gameCharacter.attack();
 
         //무기 설정
@@ -21,4 +22,12 @@ public class Main {
         gameCharacter.setWeapon(new Ax());
         gameCharacter.attack();
     }
+    /*
+        Weapon
+            - Strategy Interface
+        Ax, Knife, Sword
+            - Strategy
+        GameCharacter
+            - Client
+     */
 }
