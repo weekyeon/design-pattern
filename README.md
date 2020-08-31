@@ -16,25 +16,36 @@
 
 ### ✔️ 목차
 
-* 스트래티지 패턴 (Strategy Pattern)
-* 어댑터 패턴 (Adapter Pattern)
-* 템플릿 메소드 패턴 (Template Method Pattern)
+&nbsp; &nbsp; :open_file_folder: **생성 패턴(Creational Pattern)**
+
 * 팩토리 메소드 (Factory Method Pattern)
 * 싱글톤 패턴 (Singleton Pattern)
 * 프로토 타입 패턴 (Prototype Pattern)
 * 빌더 패턴 (Builder Pattern)
 * 추상 팩토리 패턴 (Abstract Factory Pattern)
+
+
+
+&nbsp; &nbsp; :open_file_folder: **구조 패턴(Structural Pattern)**
+
+* 어댑터 패턴 (Adapter Pattern)
 * 브릿지 패턴 (Bridge Pattern)
 * 컴포짓 패턴 (Composite Pattern)
 * 데코레이터 패턴 (Decorator Pattern)
+* 퍼사드 패턴 (Facade Pattern)
+* 플라이웨이트 패턴 (Flyweight Pattern)
+* 프록시 패턴 (Proxy Pattern)
+
+
+
+&nbsp; &nbsp; :open_file_folder: **행위 패턴(Behavioral Pattern)**
+
+* 스트래티지 패턴 (Strategy Pattern)
+* 템플릿 메소드 패턴 (Template Method Pattern)
 * 방문자 패턴 (Visitor Pattern)
 * 책임사슬 패턴 (Chain of Responsibility Pattern)
-* 퍼사드 패턴 (Facade Pattern)
 * 옵저버 패턴 (Observer Pattern)
 * 중재자 패턴 (Mediator Pattern)
 * 상태 패턴 (State Pattern)
 * 메멘토 패턴 (Memento Pattern)
-* 플라이웨이트 패턴 (Flyweight Pattern)
-* 프록시 패턴 (Proxy Pattern)
 * 커맨드 패턴 (Command Pattern)
-
