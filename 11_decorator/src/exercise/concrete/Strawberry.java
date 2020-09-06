@@ -1,4 +1,4 @@
-package exercise.apple;
+package exercise.concrete;
 
 import exercise.abst.AbstCakeDecorator;
 import exercise.abst.Cake;
